@@ -7,7 +7,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-zinc-950 shadow-md fixed top-0 left-0 w-full z-50 h-20">
+    <header className="bg-zinc-950 shadow-md fixed top-0 left-0 w-full z-50 h-17">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <h1 className="text-3xl font-bold text-pink-50"><a href="#home">MyPortfolio</a></h1>
@@ -22,9 +22,10 @@ const Header = () => {
         </nav>
 
         {/* Mobile Menu Toggle */}
-        <button onClick={toggleMenu} className="md:hidden focus:outline-none">
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+      <button onClick={toggleMenu} className="md:hidden focus:outline-none">
+  {isOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
+</button>
+
       </div>
 
       {/* Mobile Menu */}

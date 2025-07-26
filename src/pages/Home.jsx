@@ -34,7 +34,7 @@ const Home = () => {
               Download Resume
             </a>
           </div>
-          <div className='sm:mx-0 mx-16'>
+          <div className='sm:mx-0 mx-18'>
            <ul className="text-violet-50 flex space-x-6 pt-6">
   {/* LinkedIn */}
   <li>
@@ -87,7 +87,7 @@ const Home = () => {
         </div>
 
         {/* 🖼️ Image Section */}
-        <div className="flex justify-center mr-18 md:ml-60 ">
+        <div className="flex justify-center mr-22 md:ml-60 ">
           <motion.img
             src="/profile.png"
             alt="Shyam Kumar"
