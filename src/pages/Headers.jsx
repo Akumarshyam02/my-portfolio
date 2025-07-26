@@ -10,7 +10,7 @@ const Header = () => {
     <header className="bg-zinc-950 shadow-md fixed top-0 left-0 w-full z-50 h-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex justify-between items-center h-16">
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-pink-50">MyPortfolio</h1>
+        <h1 className="text-3xl font-bold text-pink-50"><a href="#home">MyPortfolio</a></h1>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-16 font-medium text-white">

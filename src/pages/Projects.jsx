@@ -5,22 +5,36 @@ const projects = [
     title: "Portfolio Website",
     description: "A sleek portfolio website built with React and Tailwind CSS to showcase my work and skills.",
     tech: ["React", "Tailwind", "Vite"],
-    link: "https://yourportfolio.com",
-    github: "https://github.com/yourname/portfolio",
+    link: "my-portfolio-blush-nu-97.vercel.app",
+    github: "https://github.com/Akumarshyam02/my-portfolio",
   },
   {
-    title: "Task Manager API",
-    description: "A RESTful API built with Node.js and MongoDB for managing daily tasks with user authentication.",
-    tech: ["Node.js", "Express", "MongoDB"],
-    link: "",
-    github: "https://github.com/yourname/task-manager-api",
+  title: "Uber Project",
+  description: "A full-stack ride-booking web application inspired by Uber, built with React.js, Tailwind CSS, and a Node.js + MongoDB backend. Features include user authentication, location-based booking, and ride management.",
+  tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+  link: "https://uber-project-dusky.vercel.app",
+  github: "https://github.com/Akumarshyam02/Uber-Project"
   },
   {
-    title: "Task Manager API",
-    description: "A RESTful API built with Node.js and MongoDB for managing daily tasks with user authentication.",
-    tech: ["Node.js", "Express", "MongoDB"],
-    link: "",
-    github: "https://github.com/yourname/task-manager-api",
+    title: "Tic Tac Toe Game",
+  description: "A classic two-player Tic Tac Toe game built using HTML, CSS, and JavaScript with interactive UI and winning logic.",
+  tech: ["HTML", "CSS", "JavaScript"],
+  link: "https://tic-tac-toe-game-brown-omega.vercel.app",
+  github: "https://github.com/Akumarshyam02/Tic-Tac-Toe-Game"
+  },
+  {
+    title: "Temperature Converter",
+  description: "A simple and responsive temperature converter app built with HTML, CSS, and JavaScript that converts between Celsius, Fahrenheit, and Kelvin.",
+  tech: ["HTML", "CSS", "JavaScript"],
+  link: "https://akumarshyam02.github.io/temprature_converter/",
+  github: "https://github.com/Akumarshyam02/temprature_converter"
+  },
+  {
+   title: "TextUtils - React App",
+  description: "A React-based web app to analyze your text quickly — convert to uppercase/lowercase, remove extra spaces, count words/characters, and more. Includes dark mode support.",
+  tech: ["React.js", "Bootstrap", "JavaScript", "HTML", "CSS"],
+  link: "https://akumarshyam02.github.io/TextUtils-React/",
+  github: "https://github.com/Akumarshyam02/TextUtils-React"
   },
   // Add more projects here
 ];

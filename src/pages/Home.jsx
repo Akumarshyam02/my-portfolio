@@ -87,11 +87,11 @@ const Home = () => {
         </div>
 
         {/* 🖼️ Image Section */}
-        <div className="flex justify-center mr-18 md:ml-16">
+        <div className="flex justify-center mr-18 md:ml-60 ">
           <motion.img
             src="/profile.png"
             alt="Shyam Kumar"
-            className="w-60 h-60 p-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 shadow-lg"
+            className="w-60 h-60 p-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 shadow-lg "
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
           />
