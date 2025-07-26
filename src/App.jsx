@@ -2,7 +2,7 @@
 import React from 'react';
 import './index.css'; // Tailwind CSS
 import Headers from './pages/Headers.jsx';
-import Home from './Pages/Home.jsx';
+import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
 import Skills from './pages/Skills.jsx';
